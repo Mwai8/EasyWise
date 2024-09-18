@@ -1,3 +1,20 @@
+## EASYWISE
+
+My project, EasyWise, helps users easily browse, order, and track food deliveries from nearby restaurants.
+
+# Target Audience
+
+EasyWise is created for users who want a seamless and efficient way to order food online. It also provides restaurant owners with a simple dashboard to manage orders and update menus.
+
+# Personal Focus
+My focus has been on two key areas: ensuring a mobile-friendly, responsive user experience and implementing a reliable and scalable API for restaurant data and orders.
+
+# Technologies Used and Choices
+Frontend (Next.js): Next.js was chosen for its flexibility with server-side rendering (SSR) and static generation, both essential for ensuring fast page loads and SEO-friendly content. The decision to use Next.js also came from its built-in API routes, which reduced development time for server communication.
+Backend (Node.js & Express): The backend is built with Node.js and Express because of their efficiency in handling asynchronous requests. Express provided a lightweight, scalable solution for building RESTful APIs to manage orders, user data, and restaurant menus.
+Database (MongoDB): MongoDB was chosen for its flexibility in managing dynamic data structures. With varying restaurant menus and order details, a NoSQL database allowed for rapid prototyping and adjustments without requiring schema changes.
+CSS Framework (Tailwind CSS): Tailwind CSS was used to ensure a mobile-responsive and streamlined design. Its utility-first approach simplified styling and improved design consistency across different views without needing additional frameworks.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
